@@ -1,0 +1,64 @@
+body {
+    background: black;
+    color: white;
+    margin-bottom: 100px;
+}
+
+header {
+    border-bottom: solid 2px #e91e63;
+    padding: 20px;
+    font-size: 32px;
+    color: #e91e63;
+    font-family: "Dela Gothic One", sans-serif;
+}
+ .chamada {
+    background: #9c27b0;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+ }
+
+ .chamada-texto {
+    margin-right: 5%;
+ }
+
+ h1 {
+    font-size: 40px;
+    font-family: "Unbounded", sans-serif;
+ }
+ p {
+    font-size: 20px;
+    font-family: "Unbounded", sans-serif;
+ }
+
+ img {
+    height: 200px;
+ }
+ .categoria-videos {
+    display: flex;  
+    overflow-x: auto;
+    gap: 10px;
+ }
+ .categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+ }
+ 
+ .categoria-videos img {
+    opacity: 0.5;
+    height: 200px;
+ }
+
+ .categoria-videos img:hover {
+    opacity: 1.0;
+    border: 1px solid red;
+
+ }
+
+ .categoria h2 {
+    font-family: "Yatra One", system-ui;
+    color: #e91e63
+ 
+ }
